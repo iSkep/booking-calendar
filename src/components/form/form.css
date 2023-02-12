@@ -1,0 +1,52 @@
+.time-submit {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 40px;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff6633;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.time-submit::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    width: 18px;
+    height: 13px;
+    transform: translate(0, -50%);
+    background: url('../../resources/img/check.svg') no-repeat center;
+}
+
+.time-submit:disabled {
+    background-color: rgba(255, 102, 51, 0.7);
+}
+
+.btn-container {
+    position: absolute;
+    display: flex;
+    max-width: 326px;
+    flex-wrap: wrap;
+    row-gap: 17px;
+    column-gap: 10px;
+}
+.time-form {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 17px;
+    padding-top: 10px;
+}
+.time-text {
+    flex: 1 0 100%;
+    text-align: center;
+    color: var(--footer-color);
+    margin: 0;
+}
