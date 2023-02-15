@@ -2,7 +2,6 @@
 
 * {
     font-family: 'Rubik', sans-serif;
-    /* transition: all 0.3s ease 0s; */
 }
 
 html[data-theme="dark"] {
@@ -17,8 +16,8 @@ html[data-theme="light"] {
 
 .rdp {
     --rdp-cell-size: 40px;
-    --rdp-accent-color: #ff6633; /*Цвет при выборе*/
-    --rdp-background-color: #e7edff; /*Цвет при ховере*/
+    --rdp-accent-color: #ff6633;
+    --rdp-background-color: #e7edff;
     --rdp-accent-color-dark: #3003e1;
     --rdp-background-color-dark: #180270;
     --rdp-outline: 2px solid var(--rdp-accent-color); /* Outline border for focused elements */

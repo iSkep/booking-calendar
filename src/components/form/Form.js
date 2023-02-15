@@ -1,4 +1,3 @@
-// Меняем цвет кнопки при клике
 import { format } from 'date-fns';
 import { v4 as uuidv4 } from 'uuid';
 import Button from '../button/Button';
@@ -10,9 +9,9 @@ import './form.css';
 const Form = ({ selectedDay, bookedDays, setBookedDays }) => {
     const { getDayBookedTime, postNewTime, getAllBookedDays } = useBookingService();
     const [bookedTimeSlots, setBookedTimeSlots] = useState([]);
-    const timeSlots = ['10:00', '12:00', '16:00', '18:00'];
     const [activeBtn, setActiveBtn] = useState(-1);
     const [activeTime, setActiveTime] = useState();
+    const timeSlots = ['10:00', '12:00', '16:00', '18:00'];
     let activeDayId = '';
 
     try {
