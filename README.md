@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# BOOKING CALENDAR | React practice project using [React DayPicker](https://react-day-picker.js.org/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🐱‍💻 Tech stack
+* React 18.2.0
+* React DayPicker
+* JSON Server
 
 ## Available Scripts
 
